@@ -1,0 +1,47 @@
+body{
+    padding: 2rem;
+    background-color: rgb(197, 197, 197);
+}
+
+
+div img {
+    width: 280px;
+    height: 180px;
+    position: absolute;
+    top: 82%;
+    left: 87%;
+    
+    border-radius: 45%;
+}
+
+#lista-de-tarefas{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.apagando{
+    animation: fadeout 1s;
+}
+
+@keyframes fadeout{
+    to{opacity: 0;}
+}
+
+.stats{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+    p{
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+

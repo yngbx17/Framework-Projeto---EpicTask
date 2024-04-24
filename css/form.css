@@ -1,0 +1,17 @@
+h2{
+text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+
+    .botoes{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
